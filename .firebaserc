@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "rin-1ce31"
+  },
+  "targets": {
+    "rin-1ce31": {
+      "hosting": {
+        "rin": [
+          "nisrine"
+        ]
+      }
+    }
   }
 }
