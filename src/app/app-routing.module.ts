@@ -10,6 +10,9 @@ const routes: Routes = [
 },
 {
   path: '', component: CounterComponent
+},
+{
+  path: 'gallery', component: HomeComponent
 }];
 
 @NgModule({

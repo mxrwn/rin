@@ -1,11 +1,11 @@
 import { Injectable } from '@angular/core';
-import { AngularFirestore } from '@angular/fire/firestore'
-
+// import { AngularFirestore } from '@angular/fire/firestore'
+import { AngularFireStorage } from '@angular/fire/storage';
 @Injectable({
   providedIn: 'root'
 })
 export class GalleryService {
 
-  constructor(private fs: AngularFirestore) {}
+  constructor(private afs: AngularFireStorage) {}
 
 }
